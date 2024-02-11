@@ -27,7 +27,7 @@ var space_name_line = 10;
 /* preload the data */
 function preload(){
   /* read csv file */
-  table = loadTable("data/full_data.csv", "csv", "header");
+  table = loadTable("full_data.csv", "csv", "header");
 }
 
 
