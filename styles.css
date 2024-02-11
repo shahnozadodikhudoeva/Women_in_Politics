@@ -1,0 +1,123 @@
+/* Resetting some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 20px;
+    color: #3786ba;
+    width: 50%; /* Largeur fixe de la section */
+    margin: 0 auto; /* Marge automatique sur les côtés pour centrer */
+    text-align: center; /* Aligner le contenu au centre */}
+
+
+h1 {
+    background-color: #000000;
+    color: #9b7cd4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    background-color: #761abc;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px; /* Adjust font size as needed */
+    width: 700px; /* Adjust width as needed */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+    margin-bottom: 20px;
+    white-space: pre-wrap; /* Allow line breaks */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question {
+    width: 200px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: pre-line; /* Allow line breaks */
+}
+
+.box {
+    background-color: #1a7bbc; /* Change box color */
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px; /* Increase font size */
+    width: 200px; /* Increase width */
+    height: 100px; /* Increase height */
+    line-height: 100px; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
