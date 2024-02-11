@@ -121,3 +121,14 @@ body {
     text-align: center; 
     margin-bottom: 20px;
 }
+
+.box2 {
+    background-color: #1a7bbc; /* Change box color */
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px; /* Increase font size */
+    width: 100px; /* Increase width */
+    height: 30px; /* Increase height */
+    text-align: center; 
+    margin-bottom: 20px;
+}
