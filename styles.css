@@ -31,7 +31,7 @@ h2 {
     background-color: #761abc;
     color: #fff;
     font-weight: bold;
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: 15px; /* Adjust font size as needed */
     width: 700px; /* Adjust width as needed */
     height: auto; /* Allow height to adjust based on content */
     padding: 20px; /* Add padding for spacing */
@@ -94,7 +94,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 2000px;
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +102,7 @@ body {
 }
 
 .question {
-    width: 200px;
+    width: 500px;
     margin: 30px;
     display: flex;
     align-items: center;
