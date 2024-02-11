@@ -24,7 +24,7 @@ function loadContent(page) {
 }
 
 function preload() {
-  table = loadTable('data/gdp.csv', 'csv', 'header');
+  table = loadTable('gdp.csv', 'csv', 'header');
 }
 
 
