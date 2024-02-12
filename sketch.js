@@ -84,7 +84,7 @@ function draw() {
   // put drawing code here
   // setup our canavs's background color, in black
   var SIZE = 25;
-  background(255, 255, 255);
+  background(0, 0, 0);
   // set BMI points color
 
   text_y = top_margin + font_height;
@@ -103,12 +103,12 @@ function draw() {
   for(var i = 0; i <= 3; i++){
     vertical_line_x = map(i+1, 1,4,line_x1, line_x2);
     if(i == 0){
-      stroke(0);
+      stroke(255);
       strokeWeight(grid_weight);
     
       line(vertical_line_x, vertical_line_y1 + line_spacing*0.75, vertical_line_x, vertical_line_y2);
     }
-    fill(0);
+    fill(255);
     noStroke();
     textAlign(CENTER);
     text(indicators[i], vertical_line_x, vertical_line_y1-font_height*0.7);
@@ -119,7 +119,7 @@ function draw() {
       text_y = text_y + font_height + line_spacing*1.5;
       line_y = text_y - font_height/2;
     }
-    fill(0);
+    fill(255);
     noStroke();
     // DRAW TEXT
     textAlign(LEFT);
@@ -131,7 +131,7 @@ function draw() {
     
     var indics = [women, gdp, health];
     if( i == 0){
-      stroke(0);
+      stroke(255);
       strokeWeight(grid_weight);
       line(line_x1, line_y - line_spacing*1.5, line_x2 *2, line_y - line_spacing*1.5);
     }
@@ -149,7 +149,7 @@ function draw() {
     
       var circleDiameter = map(Math.round(val), min_indic, max_indic, minDiameter, maxDiameter);
       noFill();
-      stroke(0,0,0);
+      stroke(255,255,255);
       strokeWeight(grid_weight);
       ellipse(loc, line_y, maxDiameter, maxDiameter);
       noStroke();
@@ -162,7 +162,7 @@ function draw() {
       }
       ellipse(loc, line_y, circleDiameter, circleDiameter);
       
-      fill(0);
+      fill(255);
       textAlign(CENTER, CENTER);
       text(Math.round(val), loc, line_y);
     }
